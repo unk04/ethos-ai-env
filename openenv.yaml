@@ -1,0 +1,12 @@
+name: ethical_env_v2
+
+endpoints:
+  reset: /reset
+  step: /step
+
+tasks:
+  - easy
+  - medium
+  - hard
+
+reward_range: [0, 1]
